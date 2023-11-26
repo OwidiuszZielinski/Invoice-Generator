@@ -10,8 +10,8 @@ public enum GridHeader {
     NAME(70, 480, 130, 30, "Name of the service or product", Color.decode("#f0f0f0")),
     PCS(200, 480, 25, 30, "Pcs.", Color.decode("#f0f0f0")),
     QTY(225, 480, 25, 30, "Qty.", Color.decode("#f0f0f0")),
-    NET_PRICE(250, 480, 50, 30, "Net price", Color.decode("#f0f0f0")),
-    GROSS_PRICE(300, 480, 50, 30, "Gross price", Color.decode("#f0f0f0")),
+    NET_PRICE(250, 480, 50, 30, "Unit price", Color.decode("#f0f0f0")),
+    GROSS_PRICE(300, 480, 50, 30, "Net value", Color.decode("#f0f0f0")),
     VAT_PERCENT(350, 480, 30, 30, "Vat %", Color.decode("#f0f0f0")),
     AMOUNT_OF_VAT(380, 480, 85, 30, "Amount of vat", Color.decode("#f0f0f0")),
     GROSS_VALUE(465, 480, 85, 30, "Gross value", Color.decode("#f0f0f0"));
